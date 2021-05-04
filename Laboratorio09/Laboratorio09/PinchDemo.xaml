@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local = "clr-namespace:Laboratorio09;assembly=Laboratorio09"
+             x:Class="Laboratorio09.PinchDemo">
+    <ContentPage.Content>
+        <Grid Padding="20">
+            <local:PinchToZoomContainer>
+                <local:PinchToZoomContainer.Content>
+                    <Image Source="javascript.png" />
+                </local:PinchToZoomContainer.Content>
+            </local:PinchToZoomContainer>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
